@@ -31,7 +31,7 @@ services:
       DB_USER: todo_user
       DB_PASS: todo_pass
     ports:
-      - "8082:8080"
+      - "8085:8080"
 
 volumes:
   mysql_data:
